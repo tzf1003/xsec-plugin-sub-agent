@@ -10,3 +10,10 @@ remain in [tzf1003/xsec-plugins](https://github.com/tzf1003/xsec-plugins).
 This source repository never stores Factory credentials or KMS material.
 
 Source repository: <https://github.com/tzf1003/xsec-plugin-sub-agent>
+
+## Factory delivery verification
+
+The `beta` branch is a protected release-input branch. A successful push is
+received by the Marketplace Source Reader, reconciled by the Factory, and is
+allowed to reuse an existing immutable artifact only when its plugin source
+tree and release bytes are unchanged.
